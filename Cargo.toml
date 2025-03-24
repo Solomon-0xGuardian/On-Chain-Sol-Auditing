@@ -1,0 +1,12 @@
+[package]
+name = "solana-smart-audit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-sdk = "2.2.1"
+solana-client = "2.2.3"
+
+[[bin]]
+name = "solana-smart-audit"
+path = "main.rs"
